@@ -12,3 +12,4 @@ send over wired.should not be a object.method to return the value serialize valu
 send:send method is used on producer to publish the data
 
 i have install libraries faker and kafka python libraries
+thanks regards
