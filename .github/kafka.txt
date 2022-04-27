@@ -1,0 +1,14 @@
+producer:producer to publish msg to the topics.we can connect to particular topic and send the msg there.in reality messages are published to topic partition
+publisher to send the msg to topic partition.publisher to send the msg to different topic partitions.
+
+bootstrap server:we should write producer or publisher compalsary we need to know about kafka server address.that is called bootstrap server.the default 
+server 9092 we can take.
+
+topic:producer to send the msg to particular topic.publisher need to want topic name where we need  to want publish the msg
+
+value serializer:whenever we send the to wire that is it should be serialized.it should be ascii converted and it should be simple string it can should be 
+send over wired.should not be a object.method to return the value serialize values.
+
+send:send method is used on producer to publish the data
+
+i have install libraries faker and kafka python libraries
